@@ -9,6 +9,7 @@
 body{
     font-family: 'Rubik', sans-serif;
     color:#a7a7a7;
+    min-height: 95vh;
 }
 
 
@@ -35,7 +36,7 @@ li.nav-item{
 ul li a{
     color:#8a8a8a;
     text-decoration: none;
-    padding:0px 20px;
+    padding:0px 10px;
     letter-spacing: 4px;
     padding-bottom: 12px;
     line-height: 3;
@@ -49,13 +50,18 @@ ul li a:hover{
     font-weight:500;
 }
 
-
+ul li a:active{
+    border-bottom: 4px solid var(--verde);
+    text-decoration: none;
+    color:#222;
+    font-weight:500;
+}
 
 
 /** Style mi nombre **/
 
 .name-me{
-    margin:40px 0px 30px 0;
+    margin:45px 0px 35px 0;
 }
 
 
@@ -106,13 +112,22 @@ h1.main-title{
 /** Footer Section **/
 
 footer{
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content:center;
+
     text-align: center;
     font-size: .5em;
-    color: #888888;
-    background-color: #f4f4f4;
-    bottom:0;
-    position:fixed;
+    letter-spacing: .2em;
+    background-color:rgba(240,240,240,0.3);
+    border-bottom:.5px solid var(--verde);
+    border-top:none;
     width:100%;
-    padding:5px 0;
+    position:fixed;
+    bottom:0;
+    padding:10px;
 }
 
