@@ -36,9 +36,8 @@ li.nav-item{
 ul li a{
     color:#8a8a8a;
     text-decoration: none;
-    padding:0px 10px;
+    padding:0px 10px 12px 10px;
     letter-spacing: 4px;
-    padding-bottom: 12px;
     line-height: 3;
 }
 
@@ -57,13 +56,6 @@ ul li a:active{
     font-weight:500;
 }
 
-
-@media screen and (max-width:768px){
-    li.nav-item{
-        width:100%;
-        border-bottom: 1px solid var(--verde);
-    }
-}
 
 
 
@@ -141,5 +133,21 @@ footer{
     position:fixed;
     bottom:0;
     padding:10px;
+}
+
+
+
+@media screen and (max-width:768px){
+    li.nav-item{
+        width:100%;
+        border-bottom: 1px solid var(--verde);
+    }
+    nav{
+        padding:10px 0 0 0;
+    }
+    ul li a{
+        padding:15px 15px 0px 15px;
+        line-height: 1;
+    }
 }
 
