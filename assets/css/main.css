@@ -58,6 +58,18 @@ ul li a:active{
 }
 
 
+@media screen and (max-width:768px){
+    li.nav-item{
+        width:100%;
+        border-bottom: 1px solid var(--verde);
+    }
+}
+
+
+
+
+
+
 /** Style mi nombre **/
 
 .name-me{
