@@ -176,6 +176,12 @@ input{
     border-radius: 4px;
     background-color: #f8f8f8;
 }
+label{
+    width: 100%;
+    display:block;
+    margin:0 auto;
+}
+
 textarea {
     width: 100%;
     padding: 12px 20px;
