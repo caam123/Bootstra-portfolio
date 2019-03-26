@@ -120,6 +120,7 @@ h1.main-title{
 }
 
 .img-portfolio{
+    object-fit: contain;
     width:100%;
 }
 
