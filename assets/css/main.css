@@ -134,26 +134,31 @@ h1.main-title{
     bottom:30px;
     background-color:var(--verde);
     text-align:center;
-    color:#222;
-    opacity: .9;
+    color:rgb(120, 120, 120);
+    opacity: 1;
     display:block;
     visibility: hidden;
     opacity:0;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    
 
 }
 
 .container-img-portfolio:hover .caption-img {
     display:block;
     visibility: visible;
-    opacity:.8;
-    filter: alpha(opacity=50);
+    opacity:1;
+    filter: alpha(opacity=80);
     transition: ease .6s ;
+    bottom:4em;
+    
 
 }
 
 .container-img-portfolio:hover .img-portfolio{
-    opacity: .7;
-    filter: alpha(opacity=70);
+    opacity: .5;
+    filter: alpha(opacity=70); 
     transition:ease .6s;
 }
 
