@@ -248,11 +248,30 @@ textarea {
      color:var(--verde);
      border-radius: 4px;
  }
-  
+
+ .logosContact img{
+     height:4em;
+     display:block;
+     float:left;
+     clear: both;
+ }
+
+ .linksContact{
+     display:block;
+     clear: both;
+ }
+
+progress{
+    margin: 3em 0 0 1em;
+    display:block;
+    color: var(--verde);
+}
+
+
+#working{
+    margin-left: 1em;
+}
 /*************************FORMULARIO DE CONTACTO****************************/ 
-
-
-
 
 
 /** Footer Section **/
