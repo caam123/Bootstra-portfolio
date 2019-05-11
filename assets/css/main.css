@@ -37,7 +37,7 @@ body{
 a:link,
 a:hover{
     text-decoration: none;
-    color:magenta;
+    color:var(--verde);
 }
 #back{
     color:black;
@@ -273,7 +273,44 @@ footer{
     margin-top:50px;
 }
 
+/*** PROJECT 1 ***/
 
+.listTitle{
+    font-family: "Rubik", Sans-serif;
+    font-weight: 500;
+    margin-top:2em;
+}
+
+.listTitle:before{
+    content:"|";
+    color:var(--verde);
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#launchProject{
+    border:2px solid var(--verde);
+    background-color:white;
+    padding:0.75em;
+    font-weight: 500;
+    border-radius: 5px;
+    margin: 2em 0;
+}
+
+#launchProject:hover{
+    background-color:var(--verde);
+
+
+}
+
+#launchProject  a{
+    color:var(--texto-gris);
+}
+
+#launchProject a:hover{
+    color:gray;
+    transition: ease-in 0.2s;
+}
 
 /*Media Queries*/
 
