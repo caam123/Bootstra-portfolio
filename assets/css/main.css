@@ -94,7 +94,9 @@ ul li a:active{
     font-weight:500;
 }
 
-
+.common-link{
+    color:var(--verde);
+}
 
 
 
