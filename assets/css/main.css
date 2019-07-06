@@ -257,6 +257,7 @@ textarea {
      display:block;
      float:left;
      clear: both;
+     margin-right: 0.5rem;
  }
 
  .linksContact{
