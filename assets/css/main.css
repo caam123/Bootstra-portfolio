@@ -10,6 +10,7 @@ body{
     font-family: 'Rubik', sans-serif;
     color:#a7a7a7;
     min-height: 95vh;
+    font-weight: 300!important;
 }
 
 .container{
