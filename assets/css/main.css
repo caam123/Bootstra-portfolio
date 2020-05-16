@@ -142,6 +142,12 @@ h1.main-title{
     letter-spacing:6px;
 }
 
+#me-img{
+    width:80%;
+    height: auto;
+    position:relative;
+    bottom:1em;
+}
 
 /*************************Style images****************************/ 
 
