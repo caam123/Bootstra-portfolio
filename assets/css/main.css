@@ -1,7 +1,9 @@
 :root{
-    --verde:#9dfc7b;
+    --verde:#2b454e; 
     --texto-gris:#a7a7a7;
+    --verde2: #00eab5;
 }
+/*9dfc7b;*/
 
 /* Verde anterior de repuesto #bdffa4 */
 
@@ -38,7 +40,7 @@ body{
 a:link,
 a:hover{
     text-decoration: none;
-    color:var(--verde);
+    color:var(--verde2);
 }
 #back{
     color:black;
